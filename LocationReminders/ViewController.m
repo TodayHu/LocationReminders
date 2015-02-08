@@ -10,18 +10,17 @@
 
 @interface ViewController ()
 
+// this is here when its a private property
+// @property (strong, nonatomic) NSString *name;
 @end
 
 @implementation ViewController
 
+
 - (void)viewDidLoad {
   [super viewDidLoad];
-  // Do any additional setup after loading the view, typically from a nib.
-}
 
-- (void)didReceiveMemoryWarning {
-  [super didReceiveMemoryWarning];
-  // Dispose of any resources that can be recreated.
+  //s Do any additional setup after loading the view, typically from a nib.
 }
 
 @end
